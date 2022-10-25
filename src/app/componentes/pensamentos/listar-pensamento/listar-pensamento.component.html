@@ -1,7 +1,4 @@
-<link rel="stylesheet" href="https://unpkg.com/primeflex@3.1.2/primeflex.css">
-<link rel="stylesheet" href="https://unpkg.com/primeflex/themes/saga-blue.css">
-<link rel="stylesheet" href="https://unpkg.com/primeflex/themes/arya-blue.css">
-<link rel="stylesheet" href="https://unpkg.com/primeflex/themes/vela-blue.css">
+
 <section class="conatainer">
   <header class="header d-flex">
     <h2 class="ff-inter">Meu Mural</h2>
@@ -11,16 +8,9 @@
     <div *ngFor="let pensamento of listaPensamentos">
       <app-pensamento [pensamento]="pensamento"></app-pensamento>
     </div>
-    <div class="card">
-      <div class="card-container yellow-container">
-          <div class="flex flex-wrap justify-content-center">
-              <div class="border-circle w-4rem h-2rem m-2 bg-green-500 border-red-100 surface-overlay border-3 border-round font-bold m-2 flex align-items-center justify-content-center" style="min-width: 70
-              px; min-height: 100px text-gray-900 font-bold flex align-items-center justify-content-center">Sucesso</div>
-              <div class="border-circle w-6rem h-6rem m-2 bg-red-1000 text-gray-900 font-bold flex align-items-center justify-content-center">circle</div>
-          </div>
-      </div>
+
   </div>
-</div>
+
 </section>
 <ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">
